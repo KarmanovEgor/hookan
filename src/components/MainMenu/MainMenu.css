@@ -1,0 +1,34 @@
+.mainMenu{
+    max-width: 1878px;
+    width: 100%;
+}
+.checkbox-square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.checkbox-square_active{
+    background-image: url('../../images/checked.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mainMenu__text {
+    margin: 0;
+}
+.toggle-item {
+    font-size: 30px;
+    display: flex;
+align-items: center;
+gap: 15px;
+padding-bottom: 20px;
+
+}
+.mainMenu__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.mainMenu__toggle {
+    padding: 31px 201px 0 0;
+}

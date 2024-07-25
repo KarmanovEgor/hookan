@@ -1,0 +1,38 @@
+.dev {
+    position: relative;
+    z-index: 4;
+    display: flex;
+
+    /* max-width: 400px;
+    width: 100%; */
+}
+
+.dev__developers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+/* Скрыть блоки с иконками по умолчанию */
+
+.dev__hoverable {
+    color: white;
+    margin: 0 auto;
+
+}
+
+.dev__hoverable:hover {
+    color: #EF7E18;
+    cursor: pointer;
+}
+
+.dev__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.dev__link {
+    color: white;
+    text-decoration: none;
+}

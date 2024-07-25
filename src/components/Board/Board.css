@@ -1,0 +1,124 @@
+.page__board {
+    max-width: 1878px;
+    width: 100%;
+    margin-top: 30px;
+}
+.board__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    
+}
+
+/* 2 блока слева */
+
+.board__blocks-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 924px;
+    width: 100%;
+    gap: 30px;
+    
+}
+.board__block {
+    display: flex;
+    height: 434px;
+  
+}
+
+.board__image-left {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 462px;
+  width: 100%;
+  height: 434px;
+}
+.board__image-left-up {
+    background-image: url('../../images/hookan3.jpeg');
+}
+.board__image-left-down {
+    background-image: url('../../images/boyalcohool.jpeg');
+}
+.board__text-block {
+   max-width: 410px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   gap: 86px;
+
+}
+.board__text-block_up {
+    background: linear-gradient(to bottom, #F1EFF0 0%, #F1F0F0 100%, #F3F0EF 100%);
+    padding: 82px 0 83px 56px;
+
+ }
+ .board__text-block_down {
+    background: linear-gradient(to bottom, #F3DCD2 14%, #F3DCD2 100%, #F7E0D5 100%);
+    padding: 115px 56px 115px 0px;
+
+    align-items: flex-end;
+ }
+ .board__text {
+    font-size: 48px;
+    max-width: 310px;
+    width: 100%;
+    margin: 0;
+ }
+ .board__text-down {
+    text-align: end;
+    width: 100%;
+ }
+
+ .board__button {
+   max-width: 175px; 
+   width: 100%;
+   height: 56px;
+   border: 1px solid black;
+   background-color: transparent;
+ }
+
+ /* блок большой справа  */
+
+ .board__blocks-right {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: black;
+    justify-content: flex-end;
+
+   }
+   .board__text-right {
+    margin: 0;
+    color: white; 
+    font-size: 96px;
+
+ }
+ .board__text-block-right {
+    max-width: 501px;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    max-width: 580px;
+    width: 100%;
+    left: 86px;
+    top:430px;
+    display: flex;
+    justify-content: flex-start;
+
+ }
+ .board__image-right {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../images/couple.jpeg');
+    max-width: 424px;
+    width: 100%;
+    height: 100%;
+ }
+ .board__button-right {
+    color: white;
+    border: 1px solid white;
+ }
